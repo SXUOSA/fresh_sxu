@@ -6,6 +6,8 @@ gulp.task("buildpc", function (cb) {
         if (err) {
             console.log(err);
         } 
+        gulp.src(["pc/fresh-sxu-pc-end/dist/*"])
+            .pipe(gulp.dest("dist/pc/"))
         cb();
     })
 });
@@ -15,6 +17,8 @@ gulp.task("buildmobile", function (cb) {
         if (err) {
             console.log(err);
         } 
+        gulp.src(["mobile/fresh-sxu-mobile-end/dist/*"])
+            .pipe(gulp.dest("dist/mobile/"))
         cb();
     })
 });

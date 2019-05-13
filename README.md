@@ -3,6 +3,10 @@
 
 ## 使用方法
 ```
+安装gulp
+npm install
+npm install gulp -g
+---------------------------------------
 npm run init //安装依赖环境
 npm run devpc //运行pc的DEV
 npm run devmobile //运行mobile的DEV

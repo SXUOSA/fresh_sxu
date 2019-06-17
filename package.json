@@ -1,0 +1,30 @@
+{
+  "name": "fresh-sxu",
+  "version": "1.0.0",
+  "description": "山西大学新生入学手册文档生成器",
+  "main": "index.js",
+  "scripts": {
+    "init": "cd pc/fresh-sxu-pc-end&&npm install&&cd ../../mobile/fresh-sxu-mobile-end&&npm install",
+    "devpc": "cd pc/fresh-sxu-pc-end&&npm run dev",
+    "devmobile": "cd mobile/fresh-sxu-mobile-end&&npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SXUOSA/fresh_sxu.git"
+  },
+  "author": "SXUOSA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SXUOSA/fresh_sxu/issues"
+  },
+  "homepage": "https://github.com/SXUOSA/fresh_sxu#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "iview": "^3.4.2",
+    "markdown": "^0.5.0",
+    "vue": "^2.6.10"
+  }
+}

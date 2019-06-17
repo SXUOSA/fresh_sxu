@@ -20,4 +20,4 @@ export default `
 
 vpn在选课、查分、评教、图书馆选座及资源的利用等方面很重要。
 
-详请参考山西大学官网vpn使用指南: <http://its.sxu.edu.cn/cjwt/rdwtjd/58216.htm> `
+`

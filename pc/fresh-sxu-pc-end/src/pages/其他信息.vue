@@ -11,11 +11,20 @@
         <!-- 自我提升 -->
         <div id="SelfImprovement">
             <div v-html="showText02" class="text" id="SelfImprovement-text"></div>
+            <p class="text">
+                详请参考山西大学官网vpn使用指南: <a href="http://its.sxu.edu.cn/cjwt/rdwtjd/58216.htm" target="_blank">http://its.sxu.edu.cn/cjwt/rdwtjd/58216.htm</a>
+            </p>
             <div class="img" id="SelfImprovement-img"></div>
         </div>
         <!-- 学习建议 -->
         <div id="Suggestion">
             <div v-html="showText03" class="text" id="Suggestion-text"></div>
+            <p class="text">
+                <a href="https://www.zhihu.com/question/281895917/answer/588128474" target="_blank">有什么好的建议给即将上大学的学生？ - 巴啦啦的回答 - 知乎</a>
+            </p>
+            <p class="text">    
+                <a href="https://www.zhihu.com/question/281895917/answer/484100307" target="_blank">有什么好的建议给即将上大学的学生？ - 李情画的回答 - 知乎</a>
+            </p>
             <div class="img" id="Suggestion-img">
                 <button id="toNext" v-on:click="startReading()">
                     <span>

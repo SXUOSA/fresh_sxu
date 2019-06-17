@@ -43,9 +43,5 @@ export default `
 
 下面还有几个接地气的回答~
 
-[有什么好的建议给即将上大学的学生？ - 巴啦啦的回答 - 知乎] (https://www.zhihu.com/question/281895917/answer/588128474 )
-
-[有什么好的建议给即将上大学的学生？ - 李情画的回答 - 知乎] (https://www.zhihu.com/question/281895917/answer/484100307 )
-
 
 `

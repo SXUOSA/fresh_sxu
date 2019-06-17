@@ -12,7 +12,7 @@
         <!-- 坞城 -->
         <div id="WuC" >
             <div v-html="showText02" class="text" id="WuC-text"> </div>
-            <p  class="text" id="WuC-text">
+            <p  class="text">
                 <a href="http://dol.sxu.edu.cn/" target="_blank">文学院</a>
                 <a href="http://xwxy.sxu.edu.cn/" target="_blank">新闻学院</a>
                 <a href="http://history.sxu.edu.cn/" target="_blank">历史文化学院</a>

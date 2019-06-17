@@ -11,7 +11,30 @@
         </div>
         <!-- 坞城 -->
         <div id="WuC" >
-            <div v-html="showText02" class="text" id="WuC-text"></div>
+            <div v-html="showText02" class="text" id="WuC-text"> </div>
+            <p  class="text" id="WuC-text">
+                <a href="http://dol.sxu.edu.cn/" target="_blank">文学院</a>
+                <a href="http://xwxy.sxu.edu.cn/" target="_blank">新闻学院</a>
+                <a href="http://history.sxu.edu.cn/" target="_blank">历史文化学院</a>
+                <a href="http://zxxy.sxu.edu.cn/" target="_blank">哲学社会学学院</a>
+                <a href="http://zzx.sxu.edu.cn/" target="_blank">政治与公共管理学院</a>
+                <a href="http://wy.sxu.edu.cn/" target="_blank">外国语学院</a>
+                <a href="http://jky.sxu.edu.cn/" target="_blank">教育科学学院</a>
+                <a href="http://jgxy.sxu.edu.cn/" target="_blank">经济与管理学院</a>
+                <a href="http://fxy.sxu.edu.cn/" target="_blank">法学院</a>
+                <a href="http://cmxy.sxu.edu.cn/ " target="_blank">初民学院</a>
+                <a href="http://math.sxu.edu.cn/" target="_blank">数学科学学院</a>
+                <a href="http://scit.sxu.edu.cn/" target="_blank">计算机与信息技术学院</a>
+                <a href="http://wdxy.sxu.edu.cn/" target="_blank">物理电子工程学院</a>
+                <a href="http://hxx.sxu.edu.cn/" target="_blank">化学化工学院</a>
+                <a href="http://life.sxu.edu.cn/" target="_blank">生命科学学院</a>
+                <a href="http://hzy.sxu.edu.cn/" target="_blank">环境与资源学院</a>
+                <a href="http://tyy.sxu.edu.cn/" target="_blank">体育学院</a>
+                <a href="http://aom.sxu.edu.cn/" target="_blank">音乐学院</a>
+                <a href="http://afa.sxu.edu.cn/" target="_blank">美术学院</a>
+                <a href="http://hjgc.sxu.edu.cn/" target="_blank">环境工程系</a>
+            </p>
+           
             <div class="img" id="WuC-img"></div>
         </div>
         <!-- 大东关 -->

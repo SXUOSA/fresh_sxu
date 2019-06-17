@@ -5,7 +5,7 @@
         <p>主办：山西大学教务处&nbsp;&nbsp;&nbsp;&nbsp;</p>
         <p>承办：山西大学计算机与信息技术学院&nbsp;&nbsp;&nbsp;&nbsp;山西大学开源软件协会&nbsp;&nbsp;&nbsp;&nbsp;山西大学学生社团联合会</P>
         <p>技术支持：山西大学开源软件协会</P>
-        <p>代码开源：<a href ="https://github.com/SXUOSA">GitHub</a></P>
+        <p>代码开源：<a href ="https://github.com/SXUOSA" target=_blank>GitHub</a></P>
 
         <hr>
         <br>
@@ -24,8 +24,8 @@
         <p>牛泽海&nbsp;&nbsp;&nbsp;&nbsp;冯&nbsp;&nbsp;旭&nbsp;&nbsp;&nbsp;&nbsp;宋小奚&nbsp;&nbsp;&nbsp;&nbsp;王星凯&nbsp;&nbsp;&nbsp;&nbsp;王金凤&nbsp;&nbsp;&nbsp;&nbsp;山西大学学生社团联合会&nbsp;&nbsp;&nbsp;&nbsp;山西大学电视台&nbsp;&nbsp;&nbsp;&nbsp;山西大学电台</p>
         <br>
         <h3>设计参考</h3>
-        <p><a href ="http://www.qsc.zju.edu.cn/freshman/">浙江大学新生手册</a></p>
-        <p><a href ="http://life.shanghaitech.edu.cn/fresh/">上海科技大学迎新网</a></p>
+        <p><a href ="http://www.qsc.zju.edu.cn/freshman/" target=_blank>浙江大学新生手册</a></p>
+        <p><a href ="http://life.shanghaitech.edu.cn/fresh/" target=_blank>上海科技大学迎新网</a></p>
         <br>
         <h3>补充</h3>
         <p class="indent">此迎新网于2019年完成第一版，后续还会迭代，若存在浏览体验不好的情况，望海涵。欢迎大家提出意见，如果有好的想法或者想参与迎新网的更新迭代，请随时联系负责人：QQ312685096，VX15235364658</p>

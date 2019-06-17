@@ -498,7 +498,7 @@ export default {
     #logo{
         width: 70px;
         height: 140px;
-        background: url(../assets/校徽自抠.gif
+        background: url(../assets/XiaoHui.gif
         ) no-repeat;
         opacity: 0;
         background-size: 57%;

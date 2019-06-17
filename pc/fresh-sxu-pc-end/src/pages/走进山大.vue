@@ -102,11 +102,11 @@ export default {
     }
 
     #welcome-img{
-        background-image: url(../assets/过渡/走进山大/百年山大.jpg);
+        background-image: url(../assets/过渡/走进山大/BNSD.jpg);
     }
 
     #WuC-img {
-        background-image: url(../assets/过渡/走进山大/坞城篇.jpg);
+        background-image: url(../assets/过渡/走进山大/WCP.jpg);
     }
 
     #WuC-text {
@@ -114,7 +114,7 @@ export default {
     }
 
     #DDG-img {
-        background-image: url(../assets/过渡/走进山大/大东关篇.jpg);
+        background-image: url(../assets/过渡/走进山大/DDGP.jpg);
     }
 
     #DDG-text {
@@ -122,7 +122,7 @@ export default {
     }
 
     #DS-img {
-        background-image: url(../assets/过渡/走进山大/东山篇.jpg);
+        background-image: url(../assets/过渡/走进山大/DSP.jpg);
     }
 
     #DS-text {

@@ -1,7 +1,7 @@
 <template>
     <div id="aboutUs">
         <h1>关于我们</h1>
-        <P>山西大学&nbsp;&nbsp;迎新网</P>
+        <P>山西大学&nbsp;&nbsp;新生手册</P>
         <p>主办：山西大学教务处&nbsp;&nbsp;&nbsp;&nbsp;</p>
         <p>承办：山西大学计算机与信息技术学院&nbsp;&nbsp;&nbsp;&nbsp;山西大学开源软件协会&nbsp;&nbsp;&nbsp;&nbsp;山西大学学生社团联合会</P>
         <p>技术支持：山西大学开源软件协会</P>

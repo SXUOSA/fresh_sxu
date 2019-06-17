@@ -113,14 +113,14 @@ export default {
     }
 
     #Way-img {
-        background-image: url(../assets/过渡/入学准备/到校方式.jpg); 
+        background-image: url(../assets/过渡/入学准备/DXFS.jpg); 
     }
 
     #Process-text {
 
     }
     #Process-img {
-        background-image: url(../assets/过渡/入学准备/报到流程.jpg);        
+        background-image: url(../assets/过渡/入学准备/BDLC.jpg);        
     }
 
     #Goods-text{
@@ -128,7 +128,7 @@ export default {
     }
 
     #Goods-img{
-        background-image: url(../assets/过渡/入学准备/物品准备.png);
+        background-image: url(../assets/过渡/入学准备/WPZB.png);
     }
 
     #Train-text{
@@ -136,7 +136,7 @@ export default {
     }
 
     #Train-img{
-        background-image: url(../assets/过渡/入学准备/军训小贴士.jpg);
+        background-image: url(../assets/过渡/入学准备/JXXTS.jpg);
         
     }
 
@@ -144,7 +144,7 @@ export default {
     }
 
     #QQ-img{
-        background-image: url(../assets/过渡/入学准备/新生群.jpg);
+        background-image: url(../assets/过渡/入学准备/XSQ.jpg);
 
     }
 

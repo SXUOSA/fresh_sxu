@@ -87,7 +87,7 @@ export default {
     }
 
     #Map-img{
-        background-image: url(../assets/过渡/其他信息/校园地图.jpg);
+        background-image: url(../assets/过渡/其他信息/XNDT.jpg);
     }
 
     #SelfImprovement-text {
@@ -95,7 +95,7 @@ export default {
     }
 
     #SelfImprovement-img {
-        background-image: url(../assets/过渡/其他信息/自我提升.jpg);
+        background-image: url(../assets/过渡/其他信息/ZWTS.jpg);
     }
 
     #Suggestion-text {
@@ -103,7 +103,7 @@ export default {
     }
 
     #Suggestion-img {
-        background-image: url(../assets/过渡/其他信息/学习经验.jpg);
+        background-image: url(../assets/过渡/其他信息/XXJY.jpg);
     }
 
     #Map::before{

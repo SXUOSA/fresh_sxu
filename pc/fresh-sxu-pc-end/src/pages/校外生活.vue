@@ -88,7 +88,7 @@ export default {
     }
 
     #Business-img {
-        background-image: url(../assets/过渡/校外生活/周边商圈.jpg);
+        background-image: url(../assets/过渡/校外生活/ZBSQ.jpg);
     }
 
     #Scenery-text {
@@ -96,7 +96,7 @@ export default {
     }
 
     #Scenery-img {
-        background-image: url(../assets/过渡/校外生活/风景名胜.jpg);                
+        background-image: url(../assets/过渡/校外生活/FJMS.jpg);                
     }
 
     #ServiceNet-text{
@@ -104,7 +104,7 @@ export default {
     }
 
     #ServiceNet-img{
-        background-image: url(../assets/过渡/校外生活/服务网点.jpg);
+        background-image: url(../assets/过渡/校外生活/FWWD.jpg);
     }
 
     #Business::before{

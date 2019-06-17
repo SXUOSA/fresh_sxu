@@ -3,7 +3,7 @@
         <div id="homePicture">
 
         </div>
-        <!-- <img src="../assets/首页文字.png" alt="" srcset="" id="homePicture"> -->
+        <!-- <img src="../assets/SY_text.png" alt="" srcset="" id="homePicture"> -->
         <button id="homeBottun" v-on:click="startReading()">
             <span>
                 开始阅读
@@ -27,7 +27,7 @@ export default {
 
 <style>
     #homeRoot{
-        background: url(../assets/首页背景.png) no-repeat;
+        background: url(../assets/SY_bg.png) no-repeat;
         width: 100vw;
         height: 100vh;
         background-size: 100% 100%;
@@ -46,7 +46,7 @@ export default {
         top:50%;
         /* margin-top: -294.75; */
         /* height: 300px; */
-        background: url(../assets/首页文字.png);
+        background: url(../assets/SY_text.png);
         background-size: 100%;
     }
 

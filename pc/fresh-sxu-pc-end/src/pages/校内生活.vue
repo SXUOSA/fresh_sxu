@@ -123,7 +123,7 @@ export default {
 
     }
     #LivingInSXU-img {
-        background-image: url(../assets/过渡/校内生活/住在山大.png); 
+        background-image: url(../assets/过渡/校内生活/ZZSD.png); 
     }
 
     #EatInSXU-text {
@@ -131,7 +131,7 @@ export default {
     }
 
     #EatInSXU-img {
-        background-image: url(../assets/过渡/校内生活/吃在山大.jpg);         
+        background-image: url(../assets/过渡/校内生活/CZSD.jpg);         
     }
 
     #Organization-text{
@@ -139,7 +139,7 @@ export default {
     }
 
     #Organization-img{
-        background-image: url(../assets/过渡/校内生活/学生组织.jpg); 
+        background-image: url(../assets/过渡/校内生活/XSZZ.jpg); 
     }
 
     #Association-text{
@@ -147,14 +147,14 @@ export default {
     }
 
     #Association-img{
-        background-image: url(../assets/过渡/校内生活/多彩社团.jpg); 
+        background-image: url(../assets/过渡/校内生活/DCST.jpg); 
     }
 
     #Activity-text{
     }
 
     #Activity-img{
-        background-image: url(../assets/过渡/校内生活/大型活动.jpg); 
+        background-image: url(../assets/过渡/校内生活/DXHD.jpg); 
 
     }
 
@@ -163,7 +163,7 @@ export default {
     }
 
     #ConvenienceOfLive-img{
-        background-image: url(../assets/过渡/校内生活/便利生活.jpg); 
+        background-image: url(../assets/过渡/校内生活/BLSH.jpg); 
     }
 
     #LivingInSXU::before{

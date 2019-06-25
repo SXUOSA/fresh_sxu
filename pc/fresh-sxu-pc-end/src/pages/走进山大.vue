@@ -24,7 +24,7 @@
                 <a href="http://fxy.sxu.edu.cn/" target="_blank">法学院</a>
                 <a href="http://cmxy.sxu.edu.cn/ " target="_blank">初民学院</a>
                 <a href="http://math.sxu.edu.cn/" target="_blank">数学科学学院</a>
-                <a href="http://scit.sxu.edu.cn/" target="_blank">计算机与信息技术学院</a>
+                <a href="http://cs.sxu.edu.cn/" target="_blank">计算机与信息技术学院</a>
                 <a href="http://wdxy.sxu.edu.cn/" target="_blank">物理电子工程学院</a>
                 <a href="http://hxx.sxu.edu.cn/" target="_blank">化学化工学院</a>
                 <a href="http://life.sxu.edu.cn/" target="_blank">生命科学学院</a>

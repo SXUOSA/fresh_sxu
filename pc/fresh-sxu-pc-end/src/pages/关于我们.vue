@@ -2,10 +2,8 @@
     <div id="aboutUs">
         <h1>关于我们</h1>
         <P>山西大学&nbsp;&nbsp;新生手册</P>
-        <p>主办：山西大学教务处&nbsp;&nbsp;&nbsp;&nbsp;</p>
-        <p>承办：山西大学计算机与信息技术学院&nbsp;&nbsp;&nbsp;&nbsp;山西大学开源软件协会&nbsp;&nbsp;&nbsp;&nbsp;山西大学学生社团联合会</P>
-        <p>技术支持：山西大学开源软件协会</P>
-        <p>代码开源：<a href ="https://github.com/SXUOSA" target=_blank>GitHub</a></P>
+        <p>技术支持：山西大学计算机与信息技术学院创新创业中心——开源软件协会</P>
+        <p>代码开源：<a href ="https://github.com/91yjy/fresh-sxu-pc-end" target=_blank>GitHub</a></P>
 
         <hr>
         <br>
@@ -28,7 +26,8 @@
         <p><a href ="http://life.shanghaitech.edu.cn/fresh/" target=_blank>上海科技大学迎新网</a></p>
         <br>
         <h3>补充</h3>
-        <p class="indent">此新生手册于2019年完成第一版，后续还会迭代，若存在浏览体验不好的情况，望海涵。欢迎大家提出意见，如果有好的想法或者想参与新生手册的更新迭代，请随时联系负责人：QQ312685096，VX15235364658</p>
+        <p class="indent">此新生手册于2019年6月完成第一版，由于各种不可抗力因素，上线略晚，内容准备仓促，我们将会继续迭代，若存在浏览体验不好的情况，望海涵。欢迎大家提出意见，如果有好的想法或者想参与新生手册的更新迭代，请随时联系负责人：QQ312685096，VX15235364658</p>
+        <p class="indent">如果有好看的图片也欢迎投稿！！邮箱：sxuHcyq@163.com</p>
         <p class="indent">另外，欢迎大家加入山西大学开源软件协会，一起玩耍，一起成长！</p>
         <br>
         <br>

@@ -535,8 +535,8 @@ export default {
         transition: all .75s;
     }
 
-    a {
-        color: #fff;
+    #root a {
+        color: #fff !important;
     }
 
     .bigTitle {

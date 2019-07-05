@@ -164,11 +164,11 @@ export default {
     }
 
     .img {
-        height: 500px;
+        height: 700px;
         width: 100%;
         background: url(../assets/home.jpg) fixed no-repeat;
         background-size: calc(100vw - 10px);
-        background-position:70px;
+        background-position:100% 100%;
     }
 
     .text {
@@ -189,11 +189,11 @@ export default {
         background: rgba(0, 0, 0, 0);
         color: #fff;
         border: #000;
-        float: right;
-        margin-top: 415px;
-        margin-right: 55px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 30px;
+        position: absolute;
+        right: 60px;
+        bottom: 30px;
     }
 
     #toNext:hover{
@@ -220,5 +220,9 @@ export default {
 
     #Suggestion a:hover {
         color: blue;
+    }
+    p{
+        text-indent: 2em;
+        line-height: 2em;
     }
 </style>

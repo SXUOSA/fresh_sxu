@@ -5,8 +5,11 @@
         <!-- 欢迎 -->
         <div id="welcome">
             
-            <div v-html="showText01" class="text" id="welcome-text">
-            </div>
+            <div v-html="showText01" class="text" id="welcome-text"></div>
+                <p class="text" id="welcome-WenDa" >
+                    （此处附上 “山西大学2019年本科招生 考生问答”的链接：
+                    <a href="http://bkzs.sxu.edu.cn/bkzn/144006.htm" target="_blank">http://bkzs.sxu.edu.cn/bkzn/144006.htm</a>）
+                </p>
             <div class="img" id="welcome-img"></div>
         </div>
         <!-- 坞城 -->
@@ -123,6 +126,10 @@ export default {
         text-align: center;    
     
     }
+    #welcome-WenDa{
+        text-align: center;    
+        font-size: 18px
+    }
 
     #welcome-img{
         background-image: url(../assets/过渡/走进山大/BNSD.jpg);
@@ -216,15 +223,12 @@ export default {
         right: 10vw;
     }
 
-
-
-
     .img {
-        height: 500px;
+        height: 700px;
         width: 100%;
         background: url(../assets/home.jpg) fixed no-repeat;
         background-size: calc(100vw - 10px);
-        background-position:70px;
+        background-position:100% 100%;
     }
     .text {
         width: 92%;
@@ -244,11 +248,11 @@ export default {
         background: rgba(0, 0, 0, 0);
         color: #fff;
         border: #000;
-        float: right;
-        margin-top: 415px;
-        margin-right: 55px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 30px;
+        position: absolute;
+        right: 60px;
+        bottom: 30px;
     }
 
     #toNext:hover{
@@ -262,7 +266,12 @@ export default {
         cursor: default;
         position: relative;
     }
-
+    #welcome a{
+        cursor: pointer;
+        clear: both;
+        position: relative;
+        color: #6699cc;
+    }
     #WuC a{
         cursor: pointer;
         display: block;
@@ -288,5 +297,8 @@ export default {
     #WuC p:nth-child(2) {
         margin-top: 30px;
     }
-    
+    p{
+        text-indent: 2em;
+        line-height: 2em;
+    }
 </style>

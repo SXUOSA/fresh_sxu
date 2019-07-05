@@ -6,6 +6,9 @@
         <!-- 校园地图 -->
         <div id="Map">
             <div v-html="showText01" class="text" id="Map-text"></div>
+
+            <img src="../assets/map.jpg">
+
             <div class="img" id="Map-img"></div>
         </div>
         <!-- 自我提升 -->
@@ -94,7 +97,13 @@ export default {
     #Map-text{
 
     }
-
+    #Map img{
+    height: 900px;
+    width: 97%;
+    margin : 10px 10px 15px 15px;
+    background: url(/static/img/home.4568f8f.jpg) fixed no-repeat;
+    background-size: calc(100vw - 10px);
+    }
     #Map-img{
         background-image: url(../assets/过渡/其他信息/XNDT.jpg);
     }
@@ -201,9 +210,6 @@ export default {
         transition: all .5s;
         cursor: pointer;
         border: #fff solid 2px;
-    }
-    p{
-        text-indent: 2em;
     }
 
     #SelfImprovement a {

@@ -21,12 +21,7 @@
         <!-- 军训小贴士 -->
         <div id="Train">
             <div v-html="showText04" class="text" id="Train-text"></div>
-            <div class="img" id="Train-img"></div>
-        </div>
-        <!-- QQ群 -->
-        <div id="QQ">
-            <div v-html="showText05" class="text" id="QQ-text"></div>
-            <div class="img" id="QQ-img">
+            <div class="img" id="Train-img">
                 <button id="toNext" v-on:click="startReading()">
                     <span>
                         校内生活
@@ -46,7 +41,6 @@ import 物品准备 from '../doc/入学准备/物品准备';
 import 报到流程 from '../doc/入学准备/报到流程';
 import 到校方式 from '../doc/入学准备/到校方式';
 import 军训小贴士 from '../doc/入学准备/军训小贴士';
-import QQ群 from '../doc/入学准备/QQ群'
 export default {
     data() {
       return {
@@ -62,7 +56,6 @@ export default {
         this.showText02 = markdown.toHTML(报到流程);
         this.showText03 = markdown.toHTML(到校方式);
         this.showText04 = markdown.toHTML(军训小贴士);
-        this.showText05 = markdown.toHTML(QQ群);
     },
     methods: {
         startReading() {
@@ -70,7 +63,6 @@ export default {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-
     }
 }
 </script>
@@ -82,72 +74,43 @@ export default {
         position: absolute;
         top: 0;
     }
-
     #mostTop{
         height: 68px;
         background-color: #099;
     }
-
     #Train{
         position: relative;
     }
-
     #Way {
         position: relative;
     }
-
     #Process{
         position: relative;
     }
-
     #Goods{
         position: relative;
     }
-
-    #QQ{
-        position: relative;
-    }
-
     #Way-text {
-
     }
-
     #Way-img {
         background-image: url(../assets/过渡/入学准备/DXFS.jpg); 
     }
-
     #Process-text {
-
     }
     #Process-img {
         background-image: url(../assets/过渡/入学准备/BDLC.jpg);        
     }
-
     #Goods-text{
-
     }
-
     #Goods-img{
         background-image: url(../assets/过渡/入学准备/WPZB.png);
     }
-
     #Train-text{
-
     }
-
     #Train-img{
         background-image: url(../assets/过渡/入学准备/JXXTS.jpg);
         
     }
-
-    #QQ-text {
-    }
-
-    #QQ-img{
-        background-image: url(../assets/过渡/入学准备/XSQ.jpg);
-
-    }
-
     #Goods::before{
         content: '物品准备';
         position: absolute;
@@ -163,7 +126,6 @@ export default {
         line-height: 53px;
         right: 10vw;
     }
-
     #Process::before{
         content: '报到流程';
         position: absolute;
@@ -179,7 +141,6 @@ export default {
         line-height: 53px;
         right: 10vw;
     }
-
     #Way::before{
         content: '到校方式';
         position: absolute;
@@ -195,7 +156,6 @@ export default {
         line-height: 53px;
         right: 10vw;
     }
-
     #Train::before{
         content: '军训小贴士';
         position: absolute;
@@ -211,23 +171,6 @@ export default {
         line-height: 53px;
         right: 10vw;
     }
-
-#QQ::before{
-        content: '新生群';
-        position: absolute;
-        top:-53px;
-        color: #099;
-        font-size: 25px;
-        width: 140px;
-        height: 53px;
-        background: #fff;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        text-align: center;
-        line-height: 53px;
-        right: 10vw;
-    }
-
     .img {
         height: 700px;
         width: 100%;
@@ -259,14 +202,12 @@ export default {
         right: 60px;
         bottom: 30px;
     }
-
     #toNext:hover{
         transform: scale(1.1) translateX(20px);
         transition: all .5s;
         cursor: pointer;
         border: #fff solid 2px;
     }
-
    p{
         text-indent: 2em;
         line-height: 2em;

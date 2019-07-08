@@ -44,7 +44,6 @@
                         <li class="smallTitle" @click="goTo('#Process')">报到流程</li>
                         <li class="smallTitle" @click="goTo('#Way')">到校方式</li>
                         <li class="smallTitle" @click="goTo('#Train')">军训小贴士</li>
-                        <li class="smallTitle" @click="goTo('#QQ')">新生群</li>
                     </ul>
                 </li>
                 <li>

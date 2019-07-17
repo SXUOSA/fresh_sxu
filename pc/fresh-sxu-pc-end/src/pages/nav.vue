@@ -23,7 +23,7 @@ export default {
 <style>
     #navRoot{
         height: 100%;
-        background: url(../assets/home1.jpg) fixed;
+        background: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/56dc5cfed5a34725b533d051258627d7.jpg) fixed;
         background-size: 100% ;
     }
 

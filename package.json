@@ -23,6 +23,7 @@
     "gulp": "^4.0.2"
   },
   "dependencies": {
+    "eventbusjs": "^0.2.0",
     "iview": "^3.4.2",
     "markdown": "^0.5.0",
     "vue": "^2.6.10"

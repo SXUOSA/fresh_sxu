@@ -19,9 +19,6 @@ export default new Router({
       path: '/',
       name: '首页',
       component: 首页,
-      meta: {
-        title: '山西大学新生手册-首页'
-      }
 
     },
     {
@@ -31,17 +28,17 @@ export default new Router({
       redirect:'/走进山大',
       children:
       [ 
-        {path: '/走进山大',name: '走进山大',component: 走进山大,meta: {title: '山西大学新生手册-走进山大'}},
+        {path: '/走进山大',name: '走进山大',component: 走进山大},
 
-        {path: '/入学准备',name: '入学准备',component: 入学准备,meta: {title: '山西大学新生手册-入学准备'}},
+        {path: '/入学准备',name: '入学准备',component: 入学准备},
 
-        {path:'/校内生活',name:'校内生活',component: 校内生活,meta: {title: '山西大学新生手册-校内生活'} },
+        {path:'/校内生活',name:'校内生活',component: 校内生活 },
 
-        {path:'/校外生活',name:'校外生活',component: 校外生活,meta: {title: '山西大学新生手册-校外生活'} },
+        {path:'/校外生活',name:'校外生活',component: 校外生活},
 
-        {path:'/其他信息',name:'其他信息',component: 其他信息,meta: {title: '山西大学新生手册-其他信息'} },
+        {path:'/其他信息',name:'其他信息',component: 其他信息},
 
-        {path: '/关于我们',name: '关于我们',component: 关于我们,meta: {title: '山西大学新生手册-关于我们'}},
+        {path: '/关于我们',name: '关于我们',component: 关于我们},
       ] 
     },
     {

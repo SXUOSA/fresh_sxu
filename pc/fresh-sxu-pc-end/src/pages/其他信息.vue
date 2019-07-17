@@ -7,7 +7,7 @@
         <div id="Map">
             <div v-html="showText01" class="text" id="Map-text"></div>
 
-            <img src="../assets/map.jpg">
+            <img src="http://202.207.208.171/publish/bkzsv2/images/2019-07/2291bb3010454a9088e9887d92f09f4d.jpg">
 
             <div class="img" id="Map-img"></div>
         </div>
@@ -59,6 +59,7 @@ export default {
         this.showText01 = markdown.toHTML(校园地图);
         this.showText02 = markdown.toHTML(自我提升);
         this.showText03 = markdown.toHTML(学习建议);
+        document.title = '山西大学新生手册-其他信息';
     },
     methods: {
         startReading() {
@@ -95,33 +96,39 @@ export default {
     }
 
     #Map-text{
-
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
+
     #Map img{
     height: 900px;
     width: 97%;
     margin : 10px 10px 15px 15px;
-    background: url(/static/img/home.4568f8f.jpg) fixed no-repeat;
+
     background-size: calc(100vw - 10px);
     }
     #Map-img{
-        background-image: url(../assets/过渡/其他信息/XNDT.jpg);
+        background-image: url("http://202.207.208.171/publish/bkzsv2/images/2019-07/08b0fdfd58ea4cd1a27e0005c97bd04b.jpg");
     }
 
     #SelfImprovement-text {
-
+        padding-top: 40px;
+        padding-bottom: 40px;
+        min-height: 600px;
     }
 
     #SelfImprovement-img {
-        background-image: url(../assets/过渡/其他信息/ZWTS.jpg);
+        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/3ee008edc30a4e709dff116ea7adcfd3.jpg);
     }
 
     #Suggestion-text {
-
+        padding-top: 40px;
+        padding-bottom: 40px;
+        min-height: 600px;
     }
 
     #Suggestion-img {
-        background-image: url(../assets/过渡/其他信息/XXJY.jpg);
+        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/1277c4c2248d4e1997afa31c0b91093d.jpg);
     }
 
     #Map::before{
@@ -175,7 +182,7 @@ export default {
     .img {
         height: 700px;
         width: 100%;
-        background: url(../assets/home.jpg) fixed no-repeat;
+        background:  fixed no-repeat;
         background-size: calc(100vw - 10px);
         background-position:100% 100%;
     }
@@ -229,6 +236,7 @@ export default {
     }
     p{
         text-indent: 2em;
-        line-height: 2em;
+        line-height: 32px;
+        margin: 19px 0 !important;
     }
 </style>

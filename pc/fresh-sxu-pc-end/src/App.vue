@@ -18,15 +18,11 @@ export default {
 </script>
 
 <style>
-*{
-  padding:0;
-  margin: 0;
-}
+
 body, html {
   /* background-color: black; */
   position: relative;
-  padding: 0;
-  margin: 0;
+
   /* mwidth: 100%; */
   /* min-height: 100vh; */
   overflow-x: hidden;

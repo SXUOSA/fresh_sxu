@@ -55,6 +55,7 @@ export default {
         this.showText01 = markdown.toHTML(周边商圈);
         this.showText02 = markdown.toHTML(风景名胜);
         this.showText03 = markdown.toHTML(服务网点);
+        document.title = '山西大学新生手册-校外生活';
     },
     methods: {
         startReading() {
@@ -92,27 +93,32 @@ export default {
     }
 
     #Business-text {
-
+        padding-top: 40px;
+        padding-bottom: 40px;
+        min-height: 600px;
     }
 
     #Business-img {
-        background-image: url(../assets/过渡/校外生活/ZBSQ.jpg);
+        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/12a1c1d5b5684c9d8c204acfc7705707.jpg);
     }
 
     #Scenery-text {
-
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     #Scenery-img {
-        background-image: url(../assets/过渡/校外生活/FJMS.jpg);                
+        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/c38dd82d48374d23960bc1c409fa2d63.jpg);                
     }
 
     #ServiceNet-text{
-
+        padding-top: 40px;
+        padding-bottom: 40px;
+        min-height: 600px;
     }
 
     #ServiceNet-img{
-        background-image: url(../assets/过渡/校外生活/FWWD.jpg);
+        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/df11d837bde64a9a99bed190f78432a6.jpg);
     }
 
     #Business::before{
@@ -172,7 +178,7 @@ export default {
     .img {
         height: 700px;
         width: 100%;
-        background: url(../assets/home.jpg) fixed no-repeat;
+        background: fixed no-repeat;
         background-size: calc(100vw - 10px);
         background-position:100% 100%;
     }
@@ -210,7 +216,8 @@ export default {
     }
      p{
         text-indent: 2em;
-        line-height: 2em;
+        line-height: 32px;
+        margin: 19px 0 !important;
     }
 
 </style>

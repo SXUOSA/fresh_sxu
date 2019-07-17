@@ -7,8 +7,8 @@
 
         <hr>
         <br>
-        <h2>贡献者（排名不分先后）</h2>
-        <hr>
+        <h2>贡献者（排名不分先后）:</h2>
+        <br>
         <h3>特别感谢以下组织与同学参与本新生手册的撰写工作</h3>
         <p>山西大学学生社团联合会&nbsp;&nbsp;&nbsp;&nbsp;</p>
         <p>山西大学计算机与信息技术学院创新创业中心——开源软件协会： </p>
@@ -34,6 +34,14 @@
     </div>
 </template>
 
+<script>
+export default {
+    beforeMount() {
+        document.title = '山西大学新生手册-关于我们';
+    }
+}
+</script>
+>
 
 <style>
     #aboutUs{
@@ -45,24 +53,26 @@
         color: #000;
     }
 
-    h1 {
+    #aboutUs h1 {
         font-size: 50px;
+        text-align: left;
+        text-indent: 0;
     }
 
-    h2 {
+    #aboutUs h2 {
         font-size: 40px;
     }
 
-    h3 {
+    #aboutUs h3 {
         font-size: 30px;
     }
 
-    p {
+    #aboutUs p {
         font-size: 20px;
         margin: 1em 0;
     }
 
-    hr {
+    #aboutUs hr {
         margin:1em 0;
     }
 

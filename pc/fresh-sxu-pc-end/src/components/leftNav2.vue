@@ -128,6 +128,7 @@
 </template>
 
 <script>
+const EventBus = require('eventbusjs');
 export default {
     data() {
         return {
@@ -142,6 +143,12 @@ export default {
             isShowIconHidden5:true,
             isShowIconSee5:false,
         }
+    },
+
+    mounted() {
+        EventBus.addEventListener('changePage', page => {
+            this.openSmall(page);
+        })
     },
 
     methods:{
@@ -473,11 +480,7 @@ export default {
 </script>
 
 <style>
-    * {
-        padding: 0;
-        margin: 0;
-        list-style: none;
-    }
+
 
     #root{
         height: 100%;
@@ -494,11 +497,14 @@ export default {
         transition: all .75s;
     }
 
+    #root ul {
+        list-style: none;
+    }
+
     #logo{
         width: 70px;
         height: 140px;
-        background: url(../assets/XiaoHui.gif
-        ) no-repeat;
+        background: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/17e9f387cd8b4ebd95130cb0db94aab4.gif) no-repeat;
         opacity: 0;
         background-size: 57%;
         background-position: center;
@@ -585,4 +591,5 @@ export default {
         opacity: 1;
         transition: 0.75s all;
     }
+
 </style>

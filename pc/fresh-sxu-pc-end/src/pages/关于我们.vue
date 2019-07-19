@@ -3,7 +3,7 @@
         <h1>关于我们</h1>
         <P>山西大学&nbsp;&nbsp;新生手册</P>
         <p>技术支持：山西大学计算机与信息技术学院创新创业中心——开源软件协会</P>
-        <p>代码开源：<a href ="https://github.com/91yjy/fresh-sxu-pc-end" target=_blank>GitHub</a></P>
+        <p>代码开源：<a href ="https://github.com/SXUOSA/fresh_sxu" target=_blank>GitHub</a></P>
 
         <hr>
         <br>

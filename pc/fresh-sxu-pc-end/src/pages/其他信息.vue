@@ -7,7 +7,7 @@
         <div id="Map">
             <div v-html="showText01" class="text" id="Map-text"></div>
 
-            <img src="http://202.207.208.171/publish/bkzsv2/images/2019-07/2291bb3010454a9088e9887d92f09f4d.jpg">
+            <img src="http://bkzs.sxu.edu.cn/images/2019-07/2291bb3010454a9088e9887d92f09f4d.jpg">
 
             <div class="img" id="Map-img"></div>
         </div>
@@ -108,7 +108,7 @@ export default {
     background-size: calc(100vw - 10px);
     }
     #Map-img{
-        background-image: url("http://202.207.208.171/publish/bkzsv2/images/2019-07/08b0fdfd58ea4cd1a27e0005c97bd04b.jpg");
+        background-image: url("http://bkzs.sxu.edu.cn/images/2019-07/08b0fdfd58ea4cd1a27e0005c97bd04b.jpg");
     }
 
     #SelfImprovement-text {
@@ -118,7 +118,7 @@ export default {
     }
 
     #SelfImprovement-img {
-        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/3ee008edc30a4e709dff116ea7adcfd3.jpg);
+        background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/3ee008edc30a4e709dff116ea7adcfd3.jpg);
     }
 
     #Suggestion-text {
@@ -128,7 +128,7 @@ export default {
     }
 
     #Suggestion-img {
-        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/1277c4c2248d4e1997afa31c0b91093d.jpg);
+        background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/1277c4c2248d4e1997afa31c0b91093d.jpg);
     }
 
     #Map::before{

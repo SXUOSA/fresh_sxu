@@ -18,7 +18,7 @@
 <script>
 export default {
     beforeMount() {
-        document.title = '山西大学迎新手册';
+        document.title = '山西大学 新生手册';
     },
     methods: {
         startReading() {
@@ -30,7 +30,7 @@ export default {
 
 <style>
     #homeRoot{
-        background: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/35982080e0bc4df88657e01e05e7c20b.jpg) no-repeat;
+        background: url(http://bkzs.sxu.edu.cn/images/2019-07/35982080e0bc4df88657e01e05e7c20b.jpg) no-repeat;
         width: 100vw;
         height: 100vh;
         background-size: 100% 100%;
@@ -49,7 +49,7 @@ export default {
         top:50%;
         /* margin-top: -294.75; */
         /* height: 300px; */
-        background: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/25bf5b5aabbd4037857b86811838ec62.png);
+        background: url(http://bkzs.sxu.edu.cn/images/2019-07/25bf5b5aabbd4037857b86811838ec62.png);
         background-size: 100%;
     }
 

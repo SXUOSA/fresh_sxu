@@ -99,7 +99,7 @@ export default {
     }
 
     #Business-img {
-        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/12a1c1d5b5684c9d8c204acfc7705707.jpg);
+        background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/12a1c1d5b5684c9d8c204acfc7705707.jpg);
     }
 
     #Scenery-text {
@@ -108,7 +108,7 @@ export default {
     }
 
     #Scenery-img {
-        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/c38dd82d48374d23960bc1c409fa2d63.jpg);                
+        background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/c38dd82d48374d23960bc1c409fa2d63.jpg);                
     }
 
     #ServiceNet-text{
@@ -118,7 +118,7 @@ export default {
     }
 
     #ServiceNet-img{
-        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/df11d837bde64a9a99bed190f78432a6.jpg);
+        background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/df11d837bde64a9a99bed190f78432a6.jpg);
     }
 
     #Business::before{

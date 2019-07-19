@@ -134,11 +134,11 @@ export default {
 }
 
 #welcome-img {
-  background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/a43bb5de8a31408c8003f0873c033112.jpg);
+  background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/a43bb5de8a31408c8003f0873c033112.jpg);
 }
 
 #WuC-img {
-  background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/bcc2be8daaa34e05b292f0aaf26e9ba5.jpg);
+  background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/bcc2be8daaa34e05b292f0aaf26e9ba5.jpg);
 }
 
 #WuC-text {
@@ -147,7 +147,7 @@ export default {
 }
 
 #DDG-img {
-  background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/055eaa596fbf4b8d9339675fd939b0a1.jpg);
+  background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/055eaa596fbf4b8d9339675fd939b0a1.jpg);
 }
 
 #DDG-text {
@@ -157,7 +157,7 @@ export default {
 }
 
 #DS-img {
-  background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/2697caa07b054378829225ef872196f2.jpg);
+  background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/2697caa07b054378829225ef872196f2.jpg);
 }
 
 #DS-text {

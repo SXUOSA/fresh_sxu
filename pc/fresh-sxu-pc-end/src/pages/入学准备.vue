@@ -107,7 +107,7 @@ export default {
     }
 
     #Way-img {
-        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/cddb0207a02e4f7dadf0c8d2ea28b69b.jpg); 
+        background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/cddb0207a02e4f7dadf0c8d2ea28b69b.jpg); 
     }
 
     #Process-text {
@@ -116,7 +116,7 @@ export default {
         min-height: 600px;
     }
     #Process-img {
-        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/da6fbf0a34ef419c8bd53576e8e6a33e.jpg);        
+        background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/da6fbf0a34ef419c8bd53576e8e6a33e.jpg);        
     }
 
     #Goods-text{
@@ -126,7 +126,7 @@ export default {
     }
 
     #Goods-img{
-        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/d88f160d4fa045b6be772e0293b8e6b0.png);
+        background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/d88f160d4fa045b6be772e0293b8e6b0.png);
     }
 
     #Train-text{
@@ -136,7 +136,7 @@ export default {
     }
 
     #Train-img{
-        background-image: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/f1f5fb623bfd4bcfa0c1d3646eb6bf89.jpg);
+        background-image: url(http://bkzs.sxu.edu.cn/images/2019-07/f1f5fb623bfd4bcfa0c1d3646eb6bf89.jpg);
         
     }
 

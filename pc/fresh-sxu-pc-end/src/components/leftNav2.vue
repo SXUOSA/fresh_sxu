@@ -504,7 +504,7 @@ export default {
     #logo{
         width: 70px;
         height: 140px;
-        background: url(http://202.207.208.171/publish/bkzsv2/images/2019-07/17e9f387cd8b4ebd95130cb0db94aab4.gif) no-repeat;
+        background: url(http://bkzs.sxu.edu.cn/images/2019-07/17e9f387cd8b4ebd95130cb0db94aab4.gif) no-repeat;
         opacity: 0;
         background-size: 57%;
         background-position: center;
